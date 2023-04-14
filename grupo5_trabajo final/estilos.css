@@ -9,6 +9,7 @@
     font-variant-position: super;
 }
 .container{
+    display: flexbox;
     padding-top: 1rem;
 }
 #bg_titulos{
@@ -55,7 +56,7 @@
     margin-top: 1rem;
 }
 #link1{
-    display: flex;
+    display: flexbox;
     justify-content: right;
     align-content: center; 
     height: 100px;
@@ -63,7 +64,7 @@
     font-size: 1.5rem;
 }
 #link2{
-    display: flex;
+    display: flexbox;
     justify-content: center;
     align-content: center; 
     height: 100px;
@@ -71,7 +72,7 @@
     font-size: 1.5rem;
 }
 #link3{
-    display: flex;
+    display: flexbox;
     justify-content:left;
     align-content: center; 
     height: 100px;
@@ -100,15 +101,17 @@ div>#nredes{
     size: 0.2rem;
 }
 div>#formcontactos_1{
+    display: flexbox;
     background-color: #eca92d;
-    height: 430px;
+    height: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
 }
 div>#formcontactos_2{
+    display: flexbox;
     background-color: #eca92d;
-    height: 430px;
+    height: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
