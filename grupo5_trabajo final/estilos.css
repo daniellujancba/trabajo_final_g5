@@ -95,15 +95,33 @@ img.center {
 #contactos>h4{
     font-size: 1rem;
 }
-#copyright>div{
+#formulario{
+    
+}
+div>#nredes{
+    size: 0.2rem;
+}
+div>#formcontactos_1{
+    background-color: #eca92d;
+    height: 430px;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background-color: dimgray;
-    text-align: center;
-    color: antiquewhite;
+    padding-bottom: 1rem;
+}
+div>#formcontactos_2{
+    background-color: #eca92d;
+    height: 430px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
-.prueba{
-    color: #ff0000;
-    border-radius: 2%;
+div>#copyright{
+    background-color: darkslategray;
+    justify-content: center;
+text-align: center;
+padding-bottom: 0.5rem;
+color:antiquewhite;
+margin-top: 1rem;
+margin-bottom: 1rem;
 }
