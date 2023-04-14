@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotillon Tomasito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="imagenes\Icono-Cotillon (1).png">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">  
+</head>
+
+
+<body class="body">
+    <header><!--cabezal de la pagina-->      
+        <div class="container ">
+            <div id="bg_titulos" class="row">
+                <div class="col-md-10">  
+                    <h1 id="titulo">Cotillon Tomasito</h1>
+                    <h3 id="subtitulo">Tenemos todo para tus fiestas y eventos</h3>
+                </div>
+                <div class="col-md-2">
+                    <div class="container">
+                        <div class="row">
+                            <img id="titulo_imagen" src="imagenes\01 cotillon tomasito logo 2.jpg" width="150rem"alt="icono cotillon" margin="margin-auto">
+                        </div>
+                        <div class="row margin-auto">
+                            <h5>Desde 1988</h5>
+                        </div>   
+                    </div>   
+                </div>      
+            </div>
+            
+            <div class="row"><!--menu de prueba-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid col-md-11">
+                      
+                      <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#historia">Historia</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#staff">Staff</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Productos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                              <li><a class="dropdown-item" href="#lineas1">Luminoso</a></li>
+                              <li><a class="dropdown-item" href="#lineas1">Carioca</a></li>
+                              <li><a class="dropdown-item" href="#lineas2">Personajes</a></li>
+                              <li><a class="dropdown-item" href="#lineas2">Personalizados</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#formulario">Pedidos</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                          <button class="btn btn-outline-success" type="submit" disabled>Buscar</button>
+                        </form>
+                      </div>
+                    </div>
+                    <div id="linksarrib" class="container col-md-1"><!--prueba-->
+                        <div class="col">
+                            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="_blank"><i class="lab la-twitter"></i></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="lab la-facebook-f"></i></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://www.linkedin.com/" target="_blank"><i class="lab la-linkedin-in"></i></a>
+                        </div> 
+                    </div>
+                  </nav>               
+            </div>
+            </div>        
+        </div>    
+    </header>
+
+
+    <main class="container">
+        <section id="seccion0"><!--carrusel de imagenes-->
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <div id="carouselExampleCaptions" class="carousel slide width:300px" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imagenes\cotillon led.jpeg" class="d-block w-100" alt="cotillon led">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>La Magia Led presente en tus momentos memorables!!!</h5>
+                                    <p>Algún contenido placeholder representativo para la primera diapositiva.</p>
+                                </div>
+                            </div>
+                        <div class="carousel-item">
+                                <img src="imagenes\cotillon carioca.jpg" class="d-block w-100" alt="cotillon carioca">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Todo el color del carnaval Carioca!!!</h5>
+                                    <p>Algún contenido placeholder representativo para la segunda diapositiva.</p>
+                                </div>
+                            </div>
+                        <div class="carousel-item">
+                                <img src="imagenes\cotillon customizado.jpg" class="d-block w-100" alt="cotillon personalizado">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Personaliza tus eventos!!!</h5>
+                                    <p>Algún contenido placeholder representativo para la tercera diapositiva.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                             <span class="visually-hidden">Siguiente</span>
+                        </button>
+                        </div>
+                    </div>
+                <div class="col-lg-2"></div>
+
+            </div>    
+        </section>
+
+        <section id="seccion1" class="row"><!--presentacion-historia-->
+            <div id="seccion1_1" class="col-lg-8">
+                <h4 id="historia">Nuestra Historia</h4>
+                <p>Hace más de 30 años Cotillón Tomasito se dedica a la fabricación y distribución de artículos de cotillón, siendo hoy uno de los principales proveedores de cotillón del país y países limítrofes</p>
+                <p>Adquiriendo así la confianza y alianza con importantes licencias a nivel nacional e internacional, como Disney, Marvel, Warner, Cartoon Netwoork, DreamWorks, Universal, Piñón Fijo, entre otras. </p>
+                <p>Contamos tambien con nuesra seccion minorista, donde ofrecemos una amplia gama de productos para personalizar tus eventos y asi brindar la posibilidad de un momento inolvidable.</p>
+                <p>Ubicados en un lugar estrategico del pais, podemos llegar con nuestro departamento de logistica, a cada rincon, ofreciendo una variada gama de tipos de envio, mediante el correo tradicional o servicios puerta a puerta.</p>               
+            </div>
+            <div id="representadas" class="col-lg-4 ">
+                <h4>Nuestras Representadas</h4>
+                <img src="imagenes\disney.jpg" alt="logo disney" width="150px">
+                
+                <img src="imagenes\warner bros.jpg" alt="logo warner" width="150px">
+                <img src="imagenes\marvel.jpg" alt="logo marvel" width="150px">
+                <img src="imagenes\dreamworks.jpg" alt="logo dreamworks" width="150px">
+            </div>
+        </section>
+
+        <section id="seccion1_2" class="row"><!--presentacion de los integrantes-->
+            <h4 id="staff">El Staff</h4>
+            <div id="representadas" class="col-lg-2 ">
+                
+                <img src="imagenes\perfil1.png" alt="perfil1" width="150px">
+                
+            </div>
+            <div id="seccion1_1" class="col-lg-10">
+                
+                <p><strong>Fabio Nicolas Rivero</strong>: unos de nuestros fundadores, presente desde los comienzos de la empresa. Es el responsable de comerciar insumos para la elaboracion de las diferentes lineas, como asi tambien la relacion con nuestras representadas</p>
+                <p>Tiene a su cargo tambien el area de comercializacion para los paices limitrofes. </p>
+                              
+            </div>
+            <div id="representadas" class="col-lg-2 ">
+                
+                <img src="imagenes\perfil2.png" alt="perfil2" width="150px">
+                
+            </div>
+            <div id="seccion1_1" class="col-lg-10">
+                <p><strong>Daniel Roberto Luján</strong>: cofounder de Cotillon Tomasito. Es el responsable del area comercial, desarrolla el trato con distribuidores y coordina el area de ventas minoristas</p>
+                <p>Participa en el diseño de las líneas de productos customizadas. </p>
+                                     
+            </div>
+        </section>
+
+        <section id="seccion2"><!-- presentacion de productos-->
+            <h4>Nuestras Líneas de Productos</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <div id="lineas1" class="card" style="width: 18rem;">
+                            <img src="imagenes\luminoso.jpg" class="card-img-top" alt="Cotillon Luminoso y led">
+                            <div class="card-body">
+                                <h4>Cotillon Luminoso</h4>
+                              <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolores hic tenetur eos. Quibusdam eius incidunt obcaecati blanditiis, iure reiciendis laborum magnam sequi alias unde a quam iusto culpa labore!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imagenes\carioca.jpg" class="card-img-top" alt="Cotillon carioca">
+                            <div class="card-body">
+                                <h4>Cotillon Carioca</h4>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolores hic tenetur eos. Quibusdam eius incidunt obcaecati blanditiis, iure reiciendis laborum magnam sequi alias unde a quam iusto culpa labore!</p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="col-md-2"></div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <div id="lineas2" class="card" style="width: 18rem;">
+                            <img src="imagenes\personajes.jpg" class="card-img-top" alt="personajes">
+                            <div class="card-body">
+                                <h4>Cotillon Personajes</h4>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolores hic tenetur eos. Quibusdam eius incidunt obcaecati blanditiis, iure reiciendis laborum magnam sequi alias unde a quam iusto culpa labore!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imagenes\personalizado.jpg" class="card-img-top" alt="personalizado">
+                            <div class="card-body">
+                                <h4>Cotillon Personalizado</h4>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolores hic tenetur eos. Quibusdam eius incidunt obcaecati blanditiis, iure reiciendis laborum magnam sequi alias unde a quam iusto culpa labore!</p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="col-md-2"></div>
+                    
+                </div>
+           </div>
+        
+        </section>
+        <section id="seccion1_3">
+            <h4 id="formulario">Formulario de Contacto</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+                              </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Verificado</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                          </form>
+                    </div>
+
+                </div>
+
+            </div>
+            <div>
+                <div class="container bg-light col-md-8">
+                    <div class="row col-md-6">
+                        <form id="paso 1">
+                            <fieldset>
+                                <legend class="mb-5 text-center">1/3 ¿Quién envía el grafiti?</legend>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Correo electrónico</label>
+                                    <input type="email" id="email" class="form-control" aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">Nunca compartiremos su dirección de email con nadie más.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone">Teléfono</label>
+                                    <input type="tel" id="phone" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="fullName" class="form-label">Nombre y Apellido</label>
+                                    <input type="text" class="form-control" id="fullName">
+                                </div>
+
+                            </fieldset>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+        </section>
+        
+        
+
+    </main>
+    <footer id="pie" class="container footer"><!--pie de la pagina-->
+        <div class="container">
+            <div class="row">
+                <div id="contactos" class="container col-md-6">
+                    <div class="col-md-6"><!--direcciony ubicacion-->
+                    <h3>Donde encontrarnos</h3></div>
+                    <h4>Dirección: San Carlos 343 - Los Manantiales - CABA</h4>
+                    <h4>Ubicación:<a href="https://www.google.com/maps/place/Av.+Eva+Per%C3%B3n+312,+C%C3%B3rdoba/@-31.3094291,-64.3058232,17z/data=!3m1!4b1!4m5!3m4!1s0x94329d08222ccce7:0xe62251ebaf4baf21!8m2!3d-31.3094337!4d-64.3036345" target="_blank"><i class="lab la-facebook-f"></i></a></h4>
+                    <h4>Telefono: 011-4953 7899</h4>
+                    <h4>Correo: cot.tomasito@cotillontomasito.com.ar</h4>
+                </div>
+
+                <div class="col-md-6"><!--links redes sociales-->
+                    <div class="col-md-6">
+                        <h3>Nuestras Redes</h3></div>
+                    <div class="row">
+                        <div id="link1"class="col">
+                            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="_blank"><i class="lab la-twitter"></i></a>
+                        </div>
+                        <div id="link2"class="col">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="lab la-facebook-f"></i></a>
+                        </div>
+                        <div id="link3"class="col">
+                            <a href="https://www.linkedin.com/" target="_blank"><i class="lab la-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+
+            <div id="copyright" class="container row col-md">
+                
+                <div class="col-md">Copyright 2023 - Cotillon Tomasito </div>
+                
+            </div>
+            
+           </div>
+           
+        
+        
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
